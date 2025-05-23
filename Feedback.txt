@@ -1,0 +1,10 @@
+K(30%): 100
+I(30%): 94
+C(10%): 100
+A(30%): 98
+97.6%
+equals method should override the default equals method (object as parameter)
+Although your method of generating a deck is okay, It is advisable to do something a bit more automatic such as two arrays for suits and names
+This avoid all if statements and switches, and avoids all magic numbers by using array lengths instead of 4 and 13 in your code.
+Reuse the Cards toString method instead of making up your own again!
+Missing Default constructor for DiscardPile
